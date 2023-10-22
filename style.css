@@ -94,3 +94,20 @@ footer {
     padding-right: 30px;
 }
 
+.representativasCarrousel {
+    width: 50%;
+    height: 50%;
+}
+/*Ajustar la resolucion para diferentes dispositivos */
+
+@media (max-width:480px){
+    body{
+        text-align: center;
+    }
+    ul {
+        flex-direction: column;
+    }
+    #fondoHeader, .representativasCarrousel, aside {
+       display: none; 
+    };
+}
